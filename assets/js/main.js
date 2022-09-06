@@ -1,5 +1,5 @@
 //import app from "./firebase/app.js"
-import { subscribeToMundoInvertido } from "./firebase/mundo-invertido.js";
+import { getMundoInvertidoSubscriptions, subscribeToMundoInvertido } from "./firebase/mundo-invertido";
 
 const txtName = document.getElementById('txtName')
 const txtEmail = document.getElementById('txtEmail')
@@ -26,3 +26,10 @@ btnSubscribe.addEventListener('click', async () => {
     txtCharacter.value = ''
 })
 
+async function loadData() {
+    const subscriptions = await getMundoInvertidoSubscriptions()
+    console.log(subscriptions)
+
+}
+
+loadData()
