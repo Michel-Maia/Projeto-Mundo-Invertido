@@ -1,24 +1,7 @@
+//import app from "./firebase/app.js"
+import { subscribeToMundoInvertido } from "./firebase/mundo-invertido.js";
 
-window.addEventListener('click', function() {
-    const audio = this.document.getElementById('music');
-    audio.play();
-    audio.volume = 0.2;
-})
-
-function switchTheme() {
-    document.body.classList.toggle('dark-theme');
-    document.body.classList.toggle('light-theme');
-
-
-const theme = document.body.classList[0];
-const music = theme === 'light-theme' ? 'normal-world.mpeg' : 'inverted-world.mpeg'
-
-const audio = document.getElementById('music');
-audio.src = `./assets/musics/${music}`;
-audio.play();
-audio.volume = 0.2;
-
-}
+console.log(app)
 
 const txtName = document.getElementById('txtName')
 const txtEmail = document.getElementById('txtEmail')
@@ -35,6 +18,7 @@ btnSubscribe.addEventListener('click', () => {
         character: txtCharacter.value
     }
 
-    console.log(subscription)
+    // salvar no banco de dados 
+    subscribeToMundoInvertido(subscription)
 })
 
