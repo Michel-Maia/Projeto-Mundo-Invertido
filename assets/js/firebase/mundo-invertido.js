@@ -11,6 +11,7 @@ export async function subscribeToMundoInvertido(subscription) {
 
 export async function getMundoInvertidoSubscriptions() {
     const db = getFirestore(app)
+    debugger
     const mundoInvertidoCollection = collection(db, 'mundo-invertido')
     const mundoInvertidoCollectionSnapshot = await getDocs(mundoInvertidoCollection);
     const subscriptions = mundoInvertidoCollectionSnapshot.docs.map(doc => doc.data());

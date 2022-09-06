@@ -1,5 +1,5 @@
 //import app from "./firebase/app.js"
-import { getMundoInvertidoSubscriptions, subscribeToMundoInvertido } from "./firebase/mundo-invertido";
+import { getMundoInvertidoSubscriptions, subscribeToMundoInvertido } from "./firebase/mundo-invertido.js";
 
 const txtName = document.getElementById('txtName')
 const txtEmail = document.getElementById('txtEmail')
