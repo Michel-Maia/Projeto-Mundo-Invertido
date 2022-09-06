@@ -1,8 +1,6 @@
 //import app from "./firebase/app.js"
 import { subscribeToMundoInvertido } from "./firebase/mundo-invertido.js";
 
-console.log(app)
-
 const txtName = document.getElementById('txtName')
 const txtEmail = document.getElementById('txtEmail')
 const txtLevel = document.getElementById('txtLevel')
@@ -10,7 +8,7 @@ const txtCharacter = document.getElementById('txtCharacter')
 
 const btnSubscribe = document.getElementById('btnSubscribe')
 
-btnSubscribe.addEventListener('click', () => {
+btnSubscribe.addEventListener('click', async () => {
     const subscription = {
         name: txtName.value,
         email: txtEmail.value,
@@ -19,6 +17,7 @@ btnSubscribe.addEventListener('click', () => {
     }
 
     // salvar no banco de dados 
-    subscribeToMundoInvertido(subscription)
+    const subscriptionId = await subscribeToMundoInvertido(subscription)
+    console.log(`Inscrito com sucesso: ${subscriptionId}`)
 })
 
