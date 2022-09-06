@@ -19,5 +19,10 @@ btnSubscribe.addEventListener('click', async () => {
     // salvar no banco de dados 
     const subscriptionId = await subscribeToMundoInvertido(subscription)
     console.log(`Inscrito com sucesso: ${subscriptionId}`)
+
+    txtName.value = ''
+    txtEmail.value = ''
+    txtLevel.value = '' 
+    txtCharacter.value = ''
 })
 
