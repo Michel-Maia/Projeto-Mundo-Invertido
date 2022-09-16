@@ -3,13 +3,22 @@
 </p>
 
 -------
-Projeto desenvolvido na semana Front-end no mundo Invertido da DIO. 01/09/22
+
+
+![preview](./.github/preview.png)
+
+> Plataforma Digital Innovation One
+
+Projeto realizado desenvolvido na semana Front-end no mundo Invertido da DIO.
+Desenvolvido 01/09/22
+
 
 
 ## 💻 Tecnologias
 - HTML
 - CSS
 - JavaScript
+
 
 ## 💬 Assuntos abordados
 - HTML
