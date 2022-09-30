@@ -94,3 +94,11 @@ Desenvolvido 01/09/22
 - [WCAG 2](https://www.w3.org/WAI/WCAG21/quickref/) 
 - [Figma](https://www.figma.com/file/I3Q42CcVUziRN3iMfTrbfb/Stranger-Things?node-id=0%3A1) 
 
+## Referências 
+DIO - DIGITAL INNOVATION ONE
+
+- [Youtube] https://www.youtube.com/c/DigitalInnovationOne
+- [Rocketseat] https://www.dio.me/
+
+
+
