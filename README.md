@@ -9,11 +9,11 @@
 
 > Plataforma Digital Innovation One
 
-Projeto realizado na semana Front-end no mundo Invertido da DIO.
-Desenvolvido 09/22
+Projeto realizado desenvolvido na semana Front-end no mundo Invertido da DIO.
+Desenvolvido 01/09/22
 
 
-[🔗 Clique aqui para acessar] (https://michel-maia.github.io/Projeto-Mundo-Invertido)
+[ 🔗 Clique aqui para acessar] (https://michel-maia.github.io/Projeto-Mundo-Invertido)
 
 
 ## 💻 Tecnologias
@@ -94,9 +94,3 @@ Desenvolvido 09/22
 - [WCAG 2](https://www.w3.org/WAI/WCAG21/quickref/) 
 - [Figma](https://www.figma.com/file/I3Q42CcVUziRN3iMfTrbfb/Stranger-Things?node-id=0%3A1) 
 
-
-## Referências 
-canal Youtube da DIO - DIGITAL INNOVATION ONE
-
-- [Youtube] https://www.youtube.com/watch?v=FZgIQUDn8zo&t=2276s
-- [Youtube] https://www.youtube.com/watch?v=WHbhgxJLbN4
