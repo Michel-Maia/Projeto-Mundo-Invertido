@@ -13,7 +13,7 @@ Projeto realizado desenvolvido na semana Front-end no mundo Invertido da DIO.
 Desenvolvido 01/09/22
 
 
-[ 🔗 Clique aqui para acessar] (https://michel-maia.github.io/Projeto-Mundo-Invertido)
+[ 🔗 Clique aqui para acessar] (https://michel-maia.github.io/Projeto-Mundo-Invertido/)
 
 
 ## 💻 Tecnologias
