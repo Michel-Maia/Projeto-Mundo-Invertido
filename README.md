@@ -98,7 +98,7 @@ Desenvolvido 01/09/22
 DIO - DIGITAL INNOVATION ONE
 
 - [Youtube] https://www.youtube.com/c/DigitalInnovationOne
-- [Rocketseat] https://www.dio.me/
+- [DIO] https://www.dio.me/
 
 
 
